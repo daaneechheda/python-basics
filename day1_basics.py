@@ -31,3 +31,16 @@ if age >= 18:
 else:
     print ("You cannot vote")
 print(type(age))
+
+
+
+
+num = int(input("Enter a number: "))
+if num>0:
+    print("Positive")
+elif num < 0:
+    print("Negative")
+elif num == 0:
+    print("Zero")
+else:
+    print("Fail")
